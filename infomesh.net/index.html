@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!-- saved from url=(0030)http://infomesh.net/2003/wypy/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>WyPy: A Minimal 11 Line Python Wiki</title>
+<link rel="stylesheet" type="text/css" href="./WyPy_ A Minimal 11 Line Python Wiki_files/sbp.css">
+</head>
+<body>
+<div style="float:right;text-align:right;">
+<ul style="margin-top:0em;">
+<li style="list-style-type:none;"><a href="http://infomesh.net/2003/wypy/#intro">Introduction</a></li>
+<li style="list-style-type:none;"><a href="http://infomesh.net/2003/wypy/#install">Installation 
+and Use</a></li>
+<li style="list-style-type:none;"><a href="http://infomesh.net/2003/wypy/#text">Text Formatting</a></li>
+<li style="list-style-type:none;"><a href="http://infomesh.net/2003/wypy/#notes">Notes</a></li>
+</ul>
+</div>
+
+<h1>WyPy: A Minimal Python Wiki</h1>
+
+<p><strong>Update</strong>: on 3rd February 2004, a new <strong>11 
+line</strong> version of wypy was released.</p>
+
+<h2 id="intro">Introduction</h2>
+
+<p>WyPy is a wiki implemented in just <em>11 lines</em> of Python code 
+(source: <a href="http://infomesh.net/2003/wypy/wy.py.txt">wy.py.txt</a>), including shebang. 
+It was written as a contender for the <a href="http://c2.com/cgi/wiki?ShortestWikiContest">ShortestWikiContest</a>, 
+and implements all of the <a href="http://c2.com/cgi/wiki?WikiPrinciples">basic Wiki principles</a>. It is released under GPL 2. There is a <a href="http://sbp.f2o.org/2003/wypy">working example</a> for you to try.</p>
+
+<h2 id="install">Installation and Use</h2>
+
+<p>Download the <a href="http://infomesh.net/2003/wypy/wy.py.txt">source code</a>, and save it as wypy.py 
+in a CGI executable directory of your Web server. Make sure that there is a 
+writable folder named "w" under the root of the CGI service—the raw 
+WikiFiles will be dumped there. Runs as a normal Python CGI.</p>
+
+<h2 id="text">Text Formatting</h2>
+<ul>
+<li>WikiNames are replaced with wypy internal links.</li>
+<li>"<code>\n{{</code>" starts an unordered list.</li>
+<li>"<code>\n* [text]</code>" is a list item in an unordered list.</li>
+<li>"<code>\n}}</code>" ends an unordered list.</li>
+<li>"<code>---</code>" creates an <code>&lt;hr&gt;</code> element.</li>
+<li>http: and ftp: URIs are replaced with links to those URIs</li>
+<li>All HTML is replaced with its quoted equivalent (i.e. is forbidden).</li>
+</ul>
+
+<h2 id="notes">Notes</h2>
+<p>Previous versions: </p>
+
+<ul>
+<li><a href="http://infomesh.net/2003/wypy/wypy.py.txt">18 lines</a></li>
+<li><a href="http://infomesh.net/2003/wypy/wypy.txt">23 lines</a></li>
+</ul>
+
+<p>WyPy is pronounced "whippy". It is capitalized irregularly, as "WyPy"; 
+it appears as "wypy" elsewhere in text, unless used in a wiki. For more 
+information about wikis, try <a href="http://c2.com/cgi/wiki?WikiWiki">c2.com:WikiWiki</a>. Many thanks 
+to Aaron Swartz and anonymous contributors on the original wypy wiki for 
+helping to trim those lines down from 23 to 18!</p>
+
+<h2>Feedback</h2>
+<p>Please <a href="http://infomesh.net/sbp/#sbp">contact the author</a>.</p>
+
+<address><a href="http://purl.org/net/sbp/" title="A Homepage Of Sean B. Palmer">Sean B. Palmer</a></address>
+
+
+</body></html>
