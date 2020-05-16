@@ -1,12 +1,9 @@
-# WyPy = whippy
+# whippy
 
 Hello out there.
 Not sure what I am going to do with this yet.
 
-
-# Whippy Warbling
-
-[wypy on Spotify](https://open.spotify.com/playlist/537xEagDmV3lfECrwvYCXt?si=RqUlUiCyS5Cfn9pIs4EgFw)
+Here's some [music for coding](https://open.spotify.com/playlist/537xEagDmV3lfECrwvYCXt?si=RqUlUiCyS5Cfn9pIs4EgFw) wypy.
 
 
 
@@ -18,7 +15,7 @@ http://infomesh.net/2003/wypy/.
 
 
 ## WyPy: A Minimal Python Wiki
-===========================
+
 
 **Update**: on 3rd February 2004, a new **11 line** version of wypy was released.
 
